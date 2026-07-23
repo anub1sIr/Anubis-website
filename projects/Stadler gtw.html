@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>Anubis's website</title>
+     <style>
+        @font-face {
+            font-family: 'MomoTrustDisplay-Regular';
+            src: url('../fonts/MomoTrustDisplay-Regular.ttf');
+        }
+
+        body {
+            font-family: 'MomoTrustDisplay-Regular', sans-serif;
+            color: whitesmoke
+            }
+        
+            .container {
+            display: flex;
+            gap: 15px;
+            max-width: 1000px;
+            margin: 0 auto;
+            }
+        
+            section {
+                flex: 3;
+                background-color: rgba(0, 15, 35, 0.85);
+                border: 2px solid white;
+                padding: 20px;
+                box-sizing: border-box;
+                }
+            
+            aside {
+                flex: 1;
+                background-color: rgba(0, 15, 35, 0.85);
+                border: 2px solid white;
+                padding: 20px;
+                box-sizing: border-box;
+                }
+            aside img {
+                max-width: 100%;
+                height: auto;
+                display: block;
+                }
+            a {
+                color: white;
+                text-decoration: none;
+                }
+            
+            a:hover {
+                text-decoration: underline;
+                }
+            
+            h1 {
+                text-align: center;
+                margin-bottom: 20px;
+                }
+            .preview-box img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                display: block;
+                }
+
+            .preview-box {
+                width: 285px;
+                height: 190px;
+                overflow: hidden;
+                border: 1px white;
+                }
+            
+            .update-grid {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 15px;
+                margin-bottom: 25px;
+                }
+            
+            .copyright-box {
+                border: 2px white;
+                text-align: center;
+                padding: 12px;
+                margin-top: 20px;
+                font-size: 1.1rem;
+                }
+
+            .card {
+                flex: 1;
+                }
+
+            .updates-grid {
+                display: flex;
+                gap: 20px;
+                }
+
+     </style>
+</head>
+    <body background="../images/stars-background.jpg">
+        <h1>>>Anubis's website</h1>
+        <div class="container">
+        <section>
+            <h2>Stadler GTW 2/6 (Řada 848)</h2>
+            
+            <hr class="section-divider">
+            
+            <p>Right now the work is mainly on the 3D model of the exterior for the unit itself. Work progress is planned out in this order:</p>
+
+            <ul>
+                <li>Making 3D Model</li>
+                <li>Get 3D Printer and print test models before the finished version</li>
+                <li>Make electronics, including a custom working bogey for the "power car" in the middle, and working bogeys for the cab cars</li>
+                <li>test fit electronics, test drive</li>
+                <li>Paint the body</li>
+                <li>Assemble final product.</li>
+            </ul>
+
+            <p>As of now the entire model has a rough body prepared to be made into the shape of the unit.</p>
+
+            <hr class="section-divider">
+
+            <div class="copyright-box">
+               <small>
+                ©2026 Anubis_ir All rights reserved
+               </small>
+            </div>
+        </section>
+
+        <aside>
+            <h3>Menu</h3>
+            <p><a href="../index.html">Home</a></p>
+            <p><a href="../about.html">About</a></p>
+            <p><a href="../photos.html">Photos</a></p>
+            <p><a href="../Projects.html">Projects</a></p>
+
+            <hr style="border: 1px solid white; margin: 15px 0;">
+            <h3>socials</h3>
+            <img src="../images/socials.png" alt="Socials">
+        </aside>
+        </div>
+        <h1 class="site-header">&gt;&gt;Anubis's website</h1>
+    </body>
+</html>
